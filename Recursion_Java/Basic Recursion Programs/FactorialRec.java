@@ -7,6 +7,7 @@ public class FactorialRec {
         int num=sc.nextInt();
         int factNum=fac(num);
         System.out.println("Factorial:"+factNum);
+        sc.close();
     }
 
     public static int fac(int num){

@@ -10,6 +10,7 @@ public class ReccSumOfDigits1 {
         dup=num;
         sumOfDigit();
         System.out.println(dup+":"+sum);
+        sc.close();
     }
 
     public static void sumOfDigit(){
